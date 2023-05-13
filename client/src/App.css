@@ -1,0 +1,6 @@
+.App{
+    height: 100vh;
+    background: url(./assets/image/Background_Image3.jpg) no-repeat;
+    background-position:center ;
+    background-size: cover;
+}

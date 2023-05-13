@@ -1,0 +1,62 @@
+.background{
+    background: url(../assets/image/Background_Image4.jpg) no-repeat;
+    background-position:center ;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+}
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 75%;
+    height: 550px;
+    margin-top: 20px;
+    padding: 30px;
+    border-radius: 20px;
+    background: url(../assets/image/Background_Image4.jpg) no-repeat;
+    background-position:center ;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 58%;
+    height: 100%;
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: transparent;
+}
+
+.item .logo{
+    font-size: 30px;
+    color: #c8bfc7;
+}
+
+.text-item h2{
+    font-size: 40px;
+    line-height: 1;
+    color: #191516c7;
+}
+
+.text-item p {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 20px 0;
+    color:#191516c7;
+}
+
+.container .login_section{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: calc(100% - 58%);
+    height: 100% ;
+    color: #c8bfc7;
+}

@@ -1,0 +1,14 @@
+/* .home_section{
+    height: 100vh;
+    background: url(../assets/image/Background_Image3.jpg) no-repeat;
+    background-position:center ;
+    background-size: cover;
+} */
+
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50px;
+    margin-top: 100px;
+}

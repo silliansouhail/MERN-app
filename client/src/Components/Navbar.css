@@ -1,0 +1,34 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    background-color: #191516c7;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    margin: 10px 0;
+}
+
+.links a{
+    text-decoration: none;
+    color: #c8bfc7;
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 0 10px;
+    transition: all 0.3s ease 0s;
+}
+.links a:hover{
+    color: #dc143c;
+}
+
+.links a.active{
+    color: #345995;
+    background-color: #c8bfc7;
+    transition: all 0.3s ease 0s;
+}
